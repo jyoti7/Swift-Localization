@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  repeatLocalization
+
+  Created by MD ABDUR RAHMAN on 19/2/19.
+  Copyright © 2019 MD ABDUR RAHMAN. All rights reserved.
+*/
+"FirstKey" = "My name is Jyoti";
+"LastKey" = "Dhaka";

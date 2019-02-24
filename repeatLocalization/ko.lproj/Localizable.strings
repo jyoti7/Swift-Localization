@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  repeatLocalization
+
+  Created by MD ABDUR RAHMAN on 19/2/19.
+  Copyright © 2019 MD ABDUR RAHMAN. All rights reserved.
+*/
+"FirstKey" = "내 이름은 Jyoti이다.";
+"LastKey" = "다카";
+"address" = "주소";
+"des" = "제품 설명은 잠재 고객에게 제품의 가치 제안을 설명하는 데 사용되는 마케팅 사본입니다. 매력적인 제품 설명은 고객에게 기능, 해결 된 문제점 및 판매를 창출하는 데 도움이되는 기타 이점에 대한 세부 정보를 제공합니다.";

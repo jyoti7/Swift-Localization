@@ -16,6 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B03D7FF2222822B006275CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		3B03D8002222822B006275CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3B03D8012222822B006275CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3B03D80222228238006275CA /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		3B03D80322228238006275CA /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3B03D80422228238006275CA /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3B401B33221C1B16003E53DC /* repeatLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = repeatLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B401B36221C1B16003E53DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B401B38221C1B16003E53DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +121,8 @@
 				en,
 				Base,
 				bn,
+				ar,
+				ko,
 			);
 			mainGroup = 3B401B2A221C1B16003E53DC;
 			productRefGroup = 3B401B34221C1B16003E53DC /* Products */;
@@ -159,6 +167,8 @@
 				3B401B3B221C1B16003E53DC /* Base */,
 				3B401B48221C1B99003E53DC /* bn */,
 				3B401B4B221C1BFE003E53DC /* en */,
+				3B03D7FF2222822B006275CA /* ar */,
+				3B03D80222228238006275CA /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -169,6 +179,8 @@
 				3B401B40221C1B17003E53DC /* Base */,
 				3B401B49221C1B99003E53DC /* bn */,
 				3B401B4D221C1C07003E53DC /* en */,
+				3B03D8002222822B006275CA /* ar */,
+				3B03D80322228238006275CA /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,6 +190,8 @@
 			children = (
 				3B401B51221C1C5A003E53DC /* en */,
 				3B401B53221C1C5C003E53DC /* bn */,
+				3B03D8012222822B006275CA /* ar */,
+				3B03D80422228238006275CA /* ko */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

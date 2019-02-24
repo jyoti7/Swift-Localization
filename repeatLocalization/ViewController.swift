@@ -13,21 +13,40 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lstName: UILabel!
     
+    @IBOutlet weak var Description: UILabel!
+    @IBOutlet weak var address: UILabel!
     @IBOutlet weak var seg: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        fstName.text = "FirstKey".localizableString(loc: "en")
+        lstName.text = "LastKey".localizableString(loc: "en")
+       address.text = "address".localizableString(loc: "en")
+        Description.text = "des".localizableString(loc: "en")
     }
 
     @IBAction func segBtn(_ sender: Any) {
-        
+
         if seg.selectedSegmentIndex == 0{
             fstName.text = "FirstKey".localizableString(loc: "en")
             lstName.text = "LastKey".localizableString(loc: "en")
-            
-        }else{
+            address.text = "address".localizableString(loc: "en")
+            Description.text = "des".localizableString(loc: "en")
+        } else if seg.selectedSegmentIndex == 1 {
             fstName.text = "FirstKey".localizableString(loc: "bn")
             lstName.text = "LastKey".localizableString(loc: "bn")
+            address.text = "address".localizableString(loc: "bn")
+            Description.text = "des".localizableString(loc: "bn")
+        } else if seg.selectedSegmentIndex == 2 {
+            fstName.text = "FirstKey".localizableString(loc: "ko")
+            lstName.text = "LastKey".localizableString(loc: "ko")
+            address.text = "address".localizableString(loc: "ko")
+            Description.text = "des".localizableString(loc: "ko")
+        }else{
+            fstName.text = "FirstKey".localizableString(loc: "ar")
+            lstName.text = "LastKey".localizableString(loc: "ar")
+            address.text = "address".localizableString(loc: "ar")
+            Description.text = "des".localizableString(loc: "ar")
         }
     }
     

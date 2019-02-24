@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  repeatLocalization
+
+  Created by MD ABDUR RAHMAN on 19/2/19.
+  Copyright © 2019 MD ABDUR RAHMAN. All rights reserved.
+*/
+"FirstKey" = "اسمي جيوتي";
+"LastKey" = "دكا";
+"address" = "عنوان";
+"des" = "وصف المنتج هو النسخة التسويقية المستخدمة لوصف عرض قيمة منتج ما للعملاء المحتملين. يوفر وصف المنتج المقنع للعملاء تفاصيل حول الميزات والمشاكل التي يحلها والفوائد الأخرى للمساعدة في إنشاء عملية بيع.";
